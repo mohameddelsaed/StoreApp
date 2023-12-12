@@ -11,6 +11,7 @@ class SignUpScreen extends StatelessWidget {
     return Scaffold(
       appBar: CustomAppbar(
         title: "SignUp",
+        caption: "",
         press:(){Navigator.popAndPushNamed(context, SignInScreen.routeName);} ,
       ),
       body: const BodySignUp(),

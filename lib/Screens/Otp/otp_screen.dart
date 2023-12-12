@@ -11,6 +11,7 @@ class OtpScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppbar(
+        caption: "",
         title: "Otp Verification",
         press: (){Navigator.pushNamed(context, CompleteProfileScreen.routeName);},
       ),

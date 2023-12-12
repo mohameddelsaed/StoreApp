@@ -11,6 +11,7 @@ class CompleteProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: CustomAppbar(
         title:"Sign Up" ,
+        caption: "",
         press: (){
           Navigator.pushNamed(context, SignUpScreen.routeName);
         },

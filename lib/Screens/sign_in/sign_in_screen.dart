@@ -11,6 +11,7 @@ class SignInScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppbar(title: "Sign In",
+        caption: "",
         press: (){   Navigator.popAndPushNamed(context, SplashScreen.routeName);},),
           body: const BodyS(),
     );

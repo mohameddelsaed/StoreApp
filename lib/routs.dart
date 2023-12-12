@@ -2,9 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:store_app/Screens/Otp/otp_screen.dart';
+import 'package:store_app/Screens/details/details_screen.dart';
+import 'package:store_app/Screens/home/home_screen.dart';
+import 'package:store_app/Screens/profile/profile_screen.dart';
 import 'package:store_app/Screens/sign_in/sign_in_screen.dart';
 import 'package:store_app/Screens/sign_up/sign_up_screen.dart';
 import 'Screens/Splash/splash_screen.dart';
+import 'Screens/cart/cart_screen.dart';
 import 'Screens/complete_profile/complete_profile.dart';
 import 'Screens/forgot_password/forgot_password_screen.dart';
 import 'Screens/login_success/login_success_screen.dart';
@@ -17,4 +21,9 @@ final Map<String, WidgetBuilder> routes  = {
   SignUpScreen.routeName:(context) => const SignUpScreen(),
   CompleteProfileScreen.routeName:(context) => const CompleteProfileScreen(),
   OtpScreen.routeName:(context)=>const OtpScreen(),
+  HomeScreen.routeName:(context)=> const HomeScreen(),
+  DetailsScreen.routeName:(context) => const DetailsScreen(),
+  CartScreen.routeName:(context) => const CartScreen(),
+  ProfileScreen.routeName:(context) => const ProfileScreen(),
+
 };
